@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title><?php if(isset($pageTitle)) echo $pageTitle?></title>
+    <title><?php if(isset($pageTitle)) echo $pageTitle ?></title>
     
     <!-- Material Design fonts -->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
