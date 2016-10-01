@@ -32,7 +32,10 @@ try {
                 
                 <td> $create_date </td>
                 
-                <td style=\"width: 5%;\"><button><i class=\"btn-danger fa fa-times\"></i></button>
+                <td style=\"width: 5%;\">
+                	<button class=\"btn-danger\" onclick=\"deleteTask('{$task->id}')\">
+                		<i class=\"fa fa-times\"></i>
+                	</button>
                 </td>
             	</tr>";
 
